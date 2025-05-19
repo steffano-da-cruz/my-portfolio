@@ -102,6 +102,7 @@ function Main() {
               type="text"
               placeholder="MESSAGE"
               name="Message:"
+              required
             ></input>
             <button className="message-button" type="submit">
               Send message
