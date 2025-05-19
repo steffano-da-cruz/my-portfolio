@@ -79,7 +79,14 @@ function Main() {
               possible.
             </p>
           </div>
-          <form className="contact-form-box flex flex-dir-col row-gap-bg" netlify>
+
+          <form
+            className="contact-form-box flex flex-dir-col row-gap-bg"
+            name="contact"
+            method="post"
+            netlify
+            onSubmit="submit"
+          >
             <input
               className="contact-input-name"
               type="text"
@@ -94,13 +101,12 @@ function Main() {
               name="email"
               required
             ></input>
-            <input
+            <textarea
               className="contact-input-message"
-              type="text"
               placeholder="MESSAGE"
               name="message"
               required
-            ></input>
+            ></textarea>
             <button className="message-button" type="submit">
               Send message
             </button>

@@ -131,7 +131,8 @@ body {
   align-self: start;
 }
 
-.contact-form-box input {
+.contact-form-box input,
+.contact-form-box textarea {
   color: inherit;
   font-size: 1.5rem;
   font-weight: 600;
