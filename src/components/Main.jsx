@@ -79,11 +79,7 @@ function Main() {
               possible.
             </p>
           </div>
-          <form
-            className="contact-form-box flex flex-dir-col row-gap-bg"
-            name="contact"
-            netlify
-          >
+          <form className="contact-form-box flex flex-dir-col row-gap-bg" netlify>
             <input
               className="contact-input-name"
               type="text"
