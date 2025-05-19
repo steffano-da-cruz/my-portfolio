@@ -87,21 +87,21 @@ function Main() {
               className="contact-input-name"
               type="text"
               placeholder="NAME"
-              name="Name:"
+              name="name"
               required
             ></input>
             <input
               className="contact-input-email"
               type="email"
               placeholder="EMAIL"
-              name="Email:"
+              name="email"
               required
             ></input>
             <input
               className="contact-input-message"
               type="text"
               placeholder="MESSAGE"
-              name="Message:"
+              name="message"
               required
             ></input>
             <button className="message-button" type="submit">
