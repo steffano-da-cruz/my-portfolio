@@ -85,7 +85,7 @@ function Main() {
             name="contact"
             method="post"
             onSubmit="submit"
-            netlify
+            netlify="true"
           >
             <input
               className="contact-input-name"
