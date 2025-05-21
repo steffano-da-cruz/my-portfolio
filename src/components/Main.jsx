@@ -15,10 +15,10 @@ function Main() {
               I'm <span>Steffano da Cruz</span>.
             </h1>
             <p className="hero-description txt-sm ln-ht-bg fade mar-btm-bg ">
-              I'm a web developer looking for an opportunity at the full-stack
-              development area in order to apply my skills and knowledges in
-              HTML, CSS, JavaScript, React, TypeScript, Node.js and SQL
-              (PostgreSQL).
+              Formado em Gestão da Tecnologia da Informação, procuro uma
+              oportunidade na area de desenvolvimento full-stack para aplicar
+              minhas habilidades e conhecimentos em HTML, CSS, JavaScript,
+              React, TypeScript, Node.js and SQL (PostgreSQL).
             </p>
             <a className="contact-button" href="#contact-section">
               Contact me
@@ -74,9 +74,9 @@ function Main() {
           <div className="contact-title-box">
             <h2 className="contact-title txt-hg mar-btm-md">Contact</h2>
             <p className="contact-description txt-sm ln-ht-bg fade">
-              I would love to hear about your opinion and how I could improve.
-              Please fill in the form, and I'll get back to you as soon as
-              possible.
+              Eu gostaria muito de ouvir sua opinião e como posso melhorar. Por
+              favor, envie a sua mensagem e eu vou responder o mais breve
+              possível. Obrigado!
             </p>
           </div>
 
