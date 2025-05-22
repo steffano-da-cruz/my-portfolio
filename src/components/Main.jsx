@@ -18,7 +18,7 @@ function Main() {
               Formado em Gestão da Tecnologia da Informação, procuro uma
               oportunidade na area de desenvolvimento full-stack para aplicar
               minhas habilidades e conhecimentos em HTML, CSS, JavaScript,
-              React, TypeScript, Node.js and PostgreSQL.
+              React, TypeScript, Node.js e PostgreSQL.
             </p>
             <a className="contact-button" href="#contact-section">
               Contact me
