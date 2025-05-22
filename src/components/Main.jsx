@@ -16,9 +16,9 @@ function Main() {
             </h1>
             <p className="hero-description txt-sm ln-ht-bg fade mar-btm-bg ">
               Formado em Gestão da Tecnologia da Informação, procuro uma
-              oportunidade na area de desenvolvimento full-stack para aplicar
-              minhas habilidades e conhecimentos em HTML, CSS, JavaScript,
-              React, TypeScript, Node.js e PostgreSQL.
+              oportunidade na area de desenvolvimento para aplicar minhas
+              habilidades e conhecimentos em HTML, CSS, JavaScript, React,
+              TypeScript, Node.js e PostgreSQL.
             </p>
             <a className="contact-button" href="#contact-section">
               Contact me
