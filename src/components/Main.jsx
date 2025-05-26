@@ -92,7 +92,7 @@ function Main() {
           <form
             className="contact-form-box flex flex-dir-col row-gap-bg"
             name="contact"
-            method="post"
+            method="POST"
             netlify
           >
             <input
