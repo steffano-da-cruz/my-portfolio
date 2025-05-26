@@ -112,7 +112,7 @@ const projectsInf = [
     id: 7,
     image: portfolio,
     name: "My Portfolio",
-    link: "https://portfolio-steffano.netlify.app/",
+    link: "https://my-portfolio-steffano.netlify.app/",
     skills: "CSS and React",
   },
 ];
