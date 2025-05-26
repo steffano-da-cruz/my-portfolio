@@ -154,4 +154,9 @@
   .hero-image-mobile {
     height: 110%;
   }
+
+  .projects-title-box {
+    flex-direction: column;
+    align-items: start;
+  }
 }
