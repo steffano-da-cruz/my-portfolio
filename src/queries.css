@@ -140,10 +140,14 @@
 
 @media (max-width: 34em) {
   .hero-container {
-    height: 90vh;
+    height: 110vh;
   }
 
   .hero-title {
     font-size: 4rem;
+  }
+
+  .hero-image-mobile {
+    height: 110%;
   }
 }
