@@ -1,0 +1,149 @@
+@media (max-width: 89em) {
+  .hero-container {
+    grid-template-columns: 1.8fr 1fr;
+
+    height: 85vh;
+  }
+}
+
+/* SMALLER DESKTOPS 1344px */
+
+@media (max-width: 84em) {
+  .hero-container {
+    grid-template-columns: 2.1fr 1fr;
+
+    height: 90vh;
+  }
+}
+
+/* LANDSCAPE TABLETS 1200px */
+
+@media (max-width: 75em) {
+  .hero-container {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .hero-title {
+    margin: 4rem 0;
+    font-size: 7.8rem;
+  }
+
+  .hero-image-desktop {
+    top: -44rem;
+  }
+
+  .hero-description {
+    margin: 1rem 0 3rem 0;
+    padding-right: 10rem;
+    font-size: 1.8rem;
+  }
+
+  .skills-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+    width: 60%;
+    text-align: center;
+  }
+
+  .contact-title {
+    margin-bottom: 1.2rem;
+  }
+
+  .contact-description {
+    margin-bottom: 4rem;
+  }
+}
+
+/* TABLETS 944px */
+
+@media (max-width: 59em) {
+  .navigation-bar {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .logo-list {
+    column-gap: 4.6rem;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+
+    height: 100vh;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 6rem;
+  }
+
+  .hero-description {
+    padding: 0 5rem;
+  }
+
+  .hero-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    grid-row: 1;
+
+    height: 100%;
+  }
+
+  .hero-image-desktop {
+    display: none;
+  }
+
+  .hero-image-mobile {
+    display: block;
+    height: 100%;
+    width: 46%;
+
+    position: static;
+  }
+}
+
+/* SMALLER TABLETS 704px */
+
+@media (max-width: 44em) {
+  .hero-container {
+    height: 90vh;
+  }
+
+  .hero-title {
+    font-size: 5rem;
+  }
+
+  .skills-list,
+  .projects-list {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .skills-list {
+    text-align: center;
+  }
+
+  .projects-list {
+    text-align: start;
+  }
+}
+
+/* PHONES 544px */
+
+@media (max-width: 34em) {
+  .hero-container {
+    height: 90vh;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+  }
+}

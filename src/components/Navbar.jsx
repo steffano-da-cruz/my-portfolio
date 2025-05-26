@@ -5,7 +5,7 @@ function Navbar(props) {
         {props.mainLogo}
       </a>
       <nav>
-        <ul className="flex col-gap-bg">
+        <ul className="logo-list flex col-gap-bg">
           <li>
             <a href="https://github.com/steffano-da-cruz" target="_blank">
               <ion-icon className="logo txt-md" name={props.github}></ion-icon>

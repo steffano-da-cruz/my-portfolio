@@ -1,4 +1,5 @@
-import heroImg from "../assets/images/steffano-photo.jpg";
+import heroImgDesk from "../assets/images/steffano-photo.jpg";
+import heroImgMobi from "../assets/images/steffano-photo-2.jpg";
 import Skills from "./Skills.jsx";
 import Projects from "./Projects.jsx";
 import { skillsInf, projectsInf } from "../index.jsx";
@@ -25,10 +26,18 @@ function Main() {
             </a>
           </div>
           <div className="hero-image-box">
-            <img className="hero-image" src={heroImg} alt="Steffano Photo" />
+            <img
+              className="hero-image-desktop"
+              src={heroImgDesk}
+              alt="Steffano Photo"
+            />
+            <img
+              className="hero-image-mobile"
+              src={heroImgMobi}
+              alt="Steffano Photo"
+            />
           </div>
         </div>
-        <hr className="container" />
       </section>
 
       <section className="skills-section section-padding">
@@ -84,7 +93,6 @@ function Main() {
             className="contact-form-box flex flex-dir-col row-gap-bg"
             name="contact"
             method="post"
-            onSubmit="submit"
             netlify="true"
           >
             <input
