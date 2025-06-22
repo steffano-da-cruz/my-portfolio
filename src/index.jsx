@@ -50,7 +50,7 @@ const skillsInf = [
   },
   {
     id: 7,
-    name: "SQL",
+    name: "PostgreSQL",
     level: "Beginner",
   },
   {
