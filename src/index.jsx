@@ -4,6 +4,7 @@ import omnifood from "./assets/images/omnifood.jpg";
 import pig from "./assets/images/pig-game.jpg";
 import sign from "./assets/images/sign-up-form.jpg";
 import steps from "./assets/images/steps-react-app.jpg";
+import bankist from "./assets/images/bankist.jpg";
 import portfolio from "./assets/images/portfolio.jpg";
 
 const navbarInf = [
@@ -103,13 +104,21 @@ const projectsInf = [
   },
   {
     id: 6,
+    image: bankist,
+    name: "Bankist",
+    link: "https://steffano-da-cruz.github.io/bankist/",
+    skills: "HTML, CSS and JavaScript",
+  },
+  {
+    id: 7,
     image: steps,
     name: "Steps React App",
     link: "https://steps-react-app-steffano.netlify.app/",
     skills: "CSS and React",
   },
+
   {
-    id: 7,
+    id: 8,
     image: portfolio,
     name: "My Portfolio",
     link: "https://my-portfolio-steffano.netlify.app/",
